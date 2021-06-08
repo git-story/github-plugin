@@ -1,8 +1,9 @@
 {
 	"name": "@git-story/github-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "git-story",
 	"license": "MIT",
+	"main": "./dist/index.js",
 	"scripts": {
 		"dev": "nodemon --watch src --watch package.json --watch tsconfig.js --delay 1 --exec 'npm run lint --silent; ts-node' src/index.ts",
 		"lint": "tslint -p . --force",
